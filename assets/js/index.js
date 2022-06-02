@@ -43,4 +43,9 @@ $('#btnlogout').click(() => {
         location.href = '/login.html';
     })
 })
+
 getUserInfo();
+
+function change() {
+    $('#change').attr('class', 'layui-this').next().attr('class', '');
+}
